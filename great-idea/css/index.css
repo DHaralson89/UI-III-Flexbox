@@ -64,3 +64,174 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+body {
+	margin: 0 auto;
+	width: 900px;
+}
+
+.top-section {
+	display: flexbox;
+}
+
+nav {
+	display: flexbox;
+	padding: 20px 0px;
+	margin: 20px 0px;
+	border: 20px;
+	word-spacing: 45px;
+}
+
+.Main-header {
+	display: flexbox;
+	width: 42px;
+}
+
+header {
+	text-align: center;
+}
+
+.right {
+	display: flexbox;
+	width: 145%;
+	margin-top: -40%;
+}
+
+.code {
+	display: flexbox;
+	width: 420px;
+}
+
+.logo {
+	display: flexbox;
+	padding: 20px;
+}
+
+.middle-img {
+	align-content: center;
+	width: 100%;
+}
+
+.block1 {
+	display: flexbox;
+	margin-right: 55%;
+	
+}
+
+.block2 {
+	display: flexbox;
+	margin-left: 50%;
+	margin-top: -10%;
+}
+
+.block3 {
+	display: flexbox;
+	width: 280px;
+	margin-right: auto;
+}
+
+.block4 {
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: column;
+	width: 280px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -1%;
+}
+
+.block5 {
+	display: flexbox;
+	width: 280px;
+	margin-top: -29%;
+	margin-left: auto;
+}
+
+footer {
+	text-align: center;
+}
+
+.title {
+	font-size: 80px;
+	display: flex;
+	margin: 20 px;
+	padding-top: 60px;
+}
+
+.block1s {
+	margin-top: 4%;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 425px;
+	border-style: solid;
+	border-width:1px;
+	color:black;
+	margin: 10px;
+}
+
+.column {
+	display: flex;
+	flex-flow: wrap;
+
+}
+
+.block8s {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 425px;
+	margin: 10 px;
+}
+
+.services-info-img {
+	margin-left: 50%;
+	margin-top: -25%;
+}
+
+.top{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mid50{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;	
+}
+
+.block50{
+	width: 450px
+}
+
+.mid33{
+	display: flex;
+	justify-content: space-between;
+}
+
+.block33{
+	display:flex;
+	text-align:left;
+	flex-direction: column;
+	width: 350px;
